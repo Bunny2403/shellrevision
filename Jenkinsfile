@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'sh scriptprac.sh'
+                sh 'sh scriptpract.sh'
                
             }
         }
