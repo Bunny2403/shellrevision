@@ -1,9 +1,12 @@
-pipeline{
+pipeline {
+    agent any
 
-  stage("Build"){
-      
-      sh 'sh scriptprac.sh'
-      
+    stages {
+        stage('Hello') {
+            steps {
+                sh 'sh scriptprac.sh'
+               
+            }
+        }
     }
-    
 }
